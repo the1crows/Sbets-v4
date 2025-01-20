@@ -71,7 +71,6 @@ export default function App() {
       <ScrollToTop />
       <ErrorHandler />
       <Header />
-      <Footer />
       <Toasts />
       <MainWrapper>
         <Routes>
@@ -80,6 +79,7 @@ export default function App() {
         </Routes>
         <h2 style={{ textAlign: 'center' }}>Recent Plays</h2>
         <RecentPlays />
+        <Footer />
       </MainWrapper>
     </div>
   )
