@@ -62,6 +62,17 @@ body::-webkit-scrollbar-thumb {
   border-radius: 10px;
 }
 
+footer {
+  background-color: #000; /* Set footer background color */
+  color: #fff; /* Set footer text color */
+  padding: 20px; /* Add padding to footer */
+  text-align: center; /* Center align footer content */
+}
+
+footer a {
+  color: #fff; /* Set link color in footer */
+}
+
 /* Background image styles */
 .bg-background-image {
   background-image: url('/galaxy.png'); /* Set background image */
