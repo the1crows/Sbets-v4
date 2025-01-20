@@ -61,3 +61,12 @@ body::-webkit-scrollbar-thumb {
   background: rgb(55, 57, 82);
   border-radius: 10px;
 }
+
+/* Background image styles */
+.bg-background-image {
+  background-image: url('/galaxy.png'); /* Set background image */
+  background-position: center; /* Center background image */
+  background-repeat: no-repeat; /* Disable background image repeat */
+  background-size: cover; /* Cover entire background */
+  background-attachment: fixed; /* Fixed background position */
+}
