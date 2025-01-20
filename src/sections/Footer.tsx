@@ -2,23 +2,23 @@
 
 const LINKS = [
   {
-    href: "https://t.me/SolBetsCasino",
+    href: "https://t.me/",
     title: "Telegram",
   },
   {
-    href: "https://twitter.com/SolBetsCasino",
+    href: "https://twitter.com/",
     title: "Twitter",
   },
   {
-    href: "https://www.solbets.app/assets/Whitepaper-97290c86.pdf",
+    href: "",
     title: "Whitepaper",
   },
 ];
 
 // Twitter link
 const TWITTER_LINK = {
-  href: "https://twitter.com/the1croweth",
-  title: "© 2024 SolBets Casino",
+  href: "https://twitter.com/",
+  title: "© 2025 Sbets Casino",
 };
 
 export default function Footer() {
@@ -32,7 +32,7 @@ export default function Footer() {
             href="https://gamba.so/"
             className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
           >
-            <img src="/logo.png" className="h-10" alt="SolBets Logo" />
+            <img src="/logo.png" className="h-10" alt="Sbets" />
           </a>
           <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
             {LINKS.map((link) => (
