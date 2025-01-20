@@ -12,6 +12,7 @@ import Game from './sections/Game/Game'
 import Header from './sections/Header'
 import RecentPlays from './sections/RecentPlays/RecentPlays'
 import Toasts from './sections/Toasts'
+import Footer from './sections/Footer'
 import { MainWrapper, TosInner, TosWrapper } from './styles'
 
 function ScrollToTop() {
@@ -70,6 +71,7 @@ export default function App() {
       <ScrollToTop />
       <ErrorHandler />
       <Header />
+      <Footer />
       <Toasts />
       <MainWrapper>
         <Routes>
