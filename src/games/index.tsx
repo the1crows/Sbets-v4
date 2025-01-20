@@ -15,7 +15,7 @@ export const GAMES: GameBundle[] = [
   {
     id: 'dice',
     meta: {
-      background: '#ff6490',
+      background: '#0b0b0e',
       name: 'Dice',
       image: '/games/dice.png',
       description: `
@@ -27,7 +27,7 @@ export const GAMES: GameBundle[] = [
   {
     id: 'slots',
     meta: {
-      background: '#5465ff',
+      background: '#0b0b0e',
       name: 'Slots',
       image: '/games/slots.png',
       description: `
@@ -44,7 +44,7 @@ export const GAMES: GameBundle[] = [
         Flip offers a straightforward yet thrilling gamble: choose Heads or Tails and double your money or lose it all. This simple, high-stakes game tests your luck and decision-making with every flip of the coin.
       `,
       image: '/games/flip.png',
-      background: '#ffe694',
+      background: '#0b0b0e',
     },
     app: React.lazy(() => import('./Flip')),
   },
@@ -56,7 +56,7 @@ export const GAMES: GameBundle[] = [
       description: `
         HiLo is a game of foresight and luck, challenging players to guess whether the next card will be higher or lower. Make consecutive correct guesses to increase your winnings, and decide when to cash out for maximum rewards.
       `,
-      background: '#ff4f4f',
+      background: '#0b0b0e',
     },
     props: { logo: '/logo.svg' },
     app: React.lazy(() => import('./HiLo')),
@@ -69,7 +69,7 @@ export const GAMES: GameBundle[] = [
         There's money hidden beneath the squares. The reward will increase the more squares you reveal, but watch out for the 5 hidden mines. Touch one and you'll go broke. You can cash out at any time.
       `,
       image: '/games/mines.png',
-      background: '#8376ff',
+      background: '#0b0b0e',
     },
     app: React.lazy(() => import('./Mines')),
   },
@@ -81,14 +81,14 @@ export const GAMES: GameBundle[] = [
       description: `
         Roulette brings the classic wheel-spinning game to life with a digital twist. Bet on where the ball will land and watch as the wheel decides your fate. With straightforward rules and the chance for big wins, Roulette is a timeless game of chance.
       `,
-      background: '#1de87e',
+      background: '#0b0b0e',
     },
     app: React.lazy(() => import('./Roulette')),
   },
   {
     id: 'plinko',
     meta: {
-      background: '#7272ff',
+      background: '#0b0b0e',
       image: '/games/plinko.png',
       name: 'Plinko',
       description: `
@@ -101,7 +101,7 @@ export const GAMES: GameBundle[] = [
   {
     id: 'crash',
     meta: {
-      background: '#de95e8',
+      background: '#0b0b0e',
       image: '/games/crash.png',
       name: 'Crash',
       description: `
@@ -113,7 +113,7 @@ export const GAMES: GameBundle[] = [
   {
     id: 'blackjack',
     meta: {
-      background: '#084700',
+      background: '#0b0b0e',
       image: '/games/blackjack.png',
       name: 'BlackJack',
       description: `
