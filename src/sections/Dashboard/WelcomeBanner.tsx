@@ -56,7 +56,7 @@ const Welcome = styled.div`
       background-position: 0% 50%;
     }
   }
-  background: linear-gradient(-45deg, #ffb07c, #ff3e88, #2969ff, #ef3cff, #ff3c87);
+  background: linear-gradient(to right, #4f004f, #760076, #4f004f);
   background-size: 300% 300%;
   animation: welcome-fade-in .5s ease, backgroundGradient 30s ease infinite;
   border-radius: 10px;
