@@ -70,7 +70,6 @@ export default function App() {
       <ScrollToTop />
       <ErrorHandler />
       <Header />
-      <Footer />
       <Toasts />
       <MainWrapper>
         <Routes>
