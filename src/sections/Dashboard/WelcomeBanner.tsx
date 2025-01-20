@@ -61,44 +61,35 @@ const Welcome = styled.div`
     }
   }
 
-  background: linear-gradient(-45deg, #ffb07c, #ff3e88, #2969ff, #ef3cff, #ff3c87);
-  background-size: 300% 300%;
-  animation: welcome-fade-in .5s ease, backgroundGradient 30s ease infinite;
-  border-radius: 10px;
+  background: linear-gradient(to right, #4f004f, #760076, #4f004f);
+  background-image: url('/SBCBanner.mp4');
+  border-radius: 20px;
+  padding: 40px;
   position: relative;
   overflow: hidden;
+  height: 441px; /* Set a fixed height for all banners */
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 20px;
-  filter: drop-shadow(0 4px 3px rgba(0,0,0,.07)) drop-shadow(0 2px 2px rgba(0,0,0,.06));
-
-  & img {
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    width: 100px;
-    height: 100px;
+  justify-content: space-between;
+  animation: ${fadeIn} 0.8s ease forwards;
+  min-height: 350px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    min-height: 350px; /* Set a minimum height for mobile */
+  }
+  &::before {
+    content: '';
+    position: absolute;
     top: 0;
+    left: 0;
     right: 0;
-    &:nth-child(1) {animation-delay: 0s;}
-    &:nth-child(2) {animation-delay: 1s;}
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+    animation: ${darken} 0.8s ease forwards;
   }
-
-  & > div {
-    padding: 0px;
-    filter: drop-shadow(0 4px 3px rgba(0,0,0,.07)) drop-shadow(0 2px 2px rgba(0,0,0,.06));
-  }
-
-  @media (min-width: 800px) {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    padding: 0;
-    & > div {
-      padding: 40px;
-    }
-  }
+ }
 `
 
 export function WelcomeBanner() {
