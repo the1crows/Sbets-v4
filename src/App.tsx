@@ -52,7 +52,7 @@ export default function App() {
   const set = useUserStore((state) => state.set)
 
   return (
-    <>
+    <div className="bg-background-image h-screen overflow-auto">
       {newcomer && (
         <Modal>
           <h1>Welcome</h1>
@@ -79,6 +79,6 @@ export default function App() {
         <h2 style={{ textAlign: 'center' }}>Recent Plays</h2>
         <RecentPlays />
       </MainWrapper>
-    </>
+    </div>
   )
 }
